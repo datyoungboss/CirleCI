@@ -12,7 +12,7 @@ jobs:
       - run: echo world 
 workflows: 
   Welcom:
-    job:
+    jobs:
       - print_hello
       - print_world
         requires: [print_hello]
